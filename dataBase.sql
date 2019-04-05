@@ -25,19 +25,18 @@ CREATE TABLE `vendor` (
 		PRIMARY KEY(id)
 );
 
-DROP TABLE IF EXISTS `inventory`;
+DROP TABLE IF EXISTS `package`;
 
-CREATE TABLE `inventory` (
+CREATE TABLE `package` (
 		id INT NOT NULL AUTO_INCREMENT,
 		qr_id CHAR(50) NOT NULL UNIQUE,
 		name CHAR(25) NOT NULL,
 		volume INT NOT NULL,
 		vendorName CHAR(25) NOT NULL,
 		inception CHAR(25) NOT NULL,
-		intermediate BOOLEAN NOT NULL,
-		interDestWarehouse CHAR(25) NOT NULL,
+		intraCityDelivery BOOLEAN NOT NULL,
+		deliveryLocation CHAR(50) NOT NULL,
 		pickupTime TIMESTAMP NOT NULL,
-		mappedEmployeeID CHAR(25) NOT NULL UNIQUE,
 		packageStatus CHAR(10) NOT NULL,
 		dropTime TIMESTAMP NOT NULL,
 		packageCurrentLocation CHAR(25) NOT NULL,
