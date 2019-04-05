@@ -1,3 +1,5 @@
 flask
-jwt
+PyJWT
 SQLAlchemy
+Flask-SQLAlchemy
+Werkzeug
