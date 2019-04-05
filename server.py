@@ -239,6 +239,8 @@ def fetch_data(currentVendor):
     geoLocateURL = 'https://api.ipgeolocation.io/ipgeo'
     APIKey = 'f38b38d7de524ab2b337dba786fabec0'
     geoLocateData = requests.get(geoLocateURL+'?apiKey='+APIKey+'&fields=city')
+    json = geoLocateData.json()
+    location = json['city']
 
     packageData = request.get_json()
     
@@ -256,7 +258,7 @@ def fetch_data(currentVendor):
 
                          packageStatus='WAITING',
 
-                         packageCurrentLocation=geoLocateData)
+                         packageCurrentLocation=location)
 
     db.session.add(newPackage)
     db.session.commit()
