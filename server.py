@@ -8,7 +8,7 @@ import jwt
 import datetime
 from functools import wraps
 import requests
-
+import json
 
 app = Flask(__name__)
 app.config.from_pyfile('config.cfg')
@@ -149,7 +149,7 @@ def delete_employee(currentEmployee, public_id):
     db.session.delete(employee)
     db.session.commit()
 
-    return jsonify({'Message': 'Employee \t' + employee.name + '\t has been Removed!'})
+    return jsonify({'Message': 'Employee ' + employee.name + ' has been Removed!'})
 
 @app.route('/employeelogin', methods=['GET'])
 def employeeLogin():
@@ -277,9 +277,25 @@ def delete_data(currentVendor, qr_id):
     db.session.delete(package)
     db.session.commit()
 
-    return jsonify({'Message': 'Package \t' + package.name + '\t has been Removed!'})
+    return jsonify({'Message': 'Package ' + package.name + ' has been Removed!'})
 
-    
+# ChargeStations API
+
+@app.route('/chargestations', methods=['POST'])
+@employeeToken
+def fetch_chargeStation_locations(currentEmployee):
+
+    with open('./electricChargeStations.json', 'r') as chargeStations:
+
+        mapper = json.load(chargeStations)
+
+        chargeStationLocations = []
+
+        for elements in mapper['features']:
+            chargeStationLocations.append(elements['properties']['Namn'])
+
+        return jsonify(chargeStationLocations)
+
 
 if __name__ == '__main__':
     app.run()
