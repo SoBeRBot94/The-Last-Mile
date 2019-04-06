@@ -1,0 +1,103 @@
+{
+	"name" : "Laddstolpar för elbilar",
+	"type" : "FeatureCollection",
+	"crs" : {
+		"type" : "name",
+		"properties" : {
+			"name" : "EPSG:3011"
+		}
+	},
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 128801.1908, 6563818.2248 ]
+			},
+			"properties" : {
+				"Namn" : "Bangatan   ",
+				"Webbsida" : "http://www.sodertalje.se/Stad-miljo--boende/Trafik--resande/Parkering/Sex-nya-laddstolpar-for-elbilar/",
+				"Beskrivning" : "För att stå på parkeringsplatserna där laddstolparna finns måste man ha en elbil och elbilen måste ladda under parkeringstiden. Det tar ungefär två timmar att ladda från tom till full. Man kan parkera sin elbil i maximalt 24 timmar på en parkeringsplats för elbilar.",
+				"Information" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 125074.789, 6552710.7772 ]
+			},
+			"properties" : {
+				"Namn" : "Hagagatan/Storgatan Järna  ",
+				"Webbsida" : "http://www.sodertalje.se/Stad-miljo--boende/Trafik--resande/Parkering/Sex-nya-laddstolpar-for-elbilar/",
+				"Beskrivning" : "För att stå på parkeringsplatserna där laddstolparna finns måste man ha en elbil och elbilen måste ladda under parkeringstiden. Det tar ungefär två timmar att ladda från tom till full. Man kan parkera sin elbil i maximalt 24 timmar på en parkeringsplats för elbilar.",
+				"Information" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 127656.9763, 6564608.3939 ]
+			},
+			"properties" : {
+				"Namn" : "Holmfastvägen 31  ",
+				"Webbsida" : "http://www.sodertalje.se/Stad-miljo--boende/Trafik--resande/Parkering/Sex-nya-laddstolpar-for-elbilar/",
+				"Beskrivning" : "För att stå på parkeringsplatserna där laddstolparna finns måste man ha en elbil och elbilen måste ladda under parkeringstiden. Det tar ungefär två timmar att ladda från tom till full. Man kan parkera sin elbil i maximalt 24 timmar på en parkeringsplats för elbilar.",
+				"Information" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 128500.1909, 6564000.8124 ]
+			},
+			"properties" : {
+				"Namn" : "Stadshusets parkering  ",
+				"Webbsida" : "http://www.sodertalje.se/Stad-miljo--boende/Trafik--resande/Parkering/Sex-nya-laddstolpar-for-elbilar/",
+				"Beskrivning" : "För att stå på parkeringsplatserna där laddstolparna finns måste man ha en elbil och elbilen måste ladda under parkeringstiden. Det tar ungefär två timmar att ladda från tom till full. Man kan parkera sin elbil i maximalt 24 timmar på en parkeringsplats för elbilar.",
+				"Information" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 128414.8597, 6565381.3556 ]
+			},
+			"properties" : {
+				"Namn" : "Telges huvudkontor  ",
+				"Webbsida" : "http://www.sodertalje.se/Stad-miljo--boende/Trafik--resande/Parkering/Sex-nya-laddstolpar-for-elbilar/",
+				"Beskrivning" : "För att stå på parkeringsplatserna där laddstolparna finns måste man ha en elbil och elbilen måste ladda under parkeringstiden. Det tar ungefär två timmar att ladda från tom till full. Man kan parkera sin elbil i maximalt 24 timmar på en parkeringsplats för elbilar.",
+				"Information" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 130628.0555, 6563224.7318 ]
+			},
+			"properties" : {
+				"Namn" : "Östertälje station  ",
+				"Webbsida" : "http://www.sodertalje.se/Stad-miljo--boende/Trafik--resande/Parkering/Sex-nya-laddstolpar-for-elbilar/",
+				"Beskrivning" : "För att stå på parkeringsplatserna där laddstolparna finns måste man ha en elbil och elbilen måste ladda under parkeringstiden. Det tar ungefär två timmar att ladda från tom till full. Man kan parkera sin elbil i maximalt 24 timmar på en parkeringsplats för elbilar.",
+				"Information" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 130655.4598, 6563209.9343 ]
+			},
+			"properties" : {
+				"Namn" : "Östertälje station  ",
+				"Webbsida" : "http://www.sodertalje.se/Stad-miljo--boende/Trafik--resande/Parkering/Sex-nya-laddstolpar-for-elbilar/",
+				"Beskrivning" : "",
+				"Information" : ""
+			}
+		}
+	]
+}
